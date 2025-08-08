@@ -1,0 +1,77 @@
+@media (max-width: 992px) {
+    main {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    main h1,
+    .typewriter-text {
+        font-size: 64px;
+    }
+
+    main .form {
+        width: 80%;
+    }
+
+    nav .colors {
+        padding-right: 20px;
+    }
+
+    nav .colors .gradient,
+    nav .colors .light,
+    nav .colors .dark {
+        width: 30px;
+        height: 30px;
+        margin-inline: 4px;
+    }
+
+    main .task-item {
+        padding-inline: 20px 110px;
+        font-size: 18px;
+    }
+
+    main .task-item .btn-group {
+        width: 90px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    main h1,
+    .typewriter-text {
+        font-size: 42px;
+    }
+
+    main .form input {
+        font-size: 15px;
+        height: 45px;
+        padding-right: 70px;
+    }
+
+    main .form .add {
+        width: 60px;
+        top: 5px;
+        bottom: 5px;
+    }
+
+    main .task-item {
+        font-size: 16px;
+        padding-inline: 15px 90px;
+    }
+
+    main .task-item .btn-group {
+        width: 80px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-block: 10px;
+    }
+
+    nav .colors {
+        padding-right: 0;
+        margin-top: 10px;
+    }
+}
